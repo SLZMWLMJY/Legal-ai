@@ -1,0 +1,127 @@
+2026-01-18 23:02:27 - INFO - 法律智能体服务启动成功
+2026-01-18 23:18:51 - INFO - 法律智能体服务启动成功
+2026-01-18 23:19:22 - ERROR - JWT处理失败: Not enough segments
+2026-01-18 23:19:49 - ERROR - JWT处理失败: Not enough segments
+2026-01-18 23:20:16 - ERROR - JWT处理失败: Not enough segments
+2026-01-18 23:21:14 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-18 23:21:14 - INFO - 用户2000850556100329473开始对话
+2026-01-18 23:24:09 - INFO - 法律智能体服务启动成功
+2026-01-18 23:24:12 - INFO - 法律智能体服务启动成功
+2026-01-18 23:24:15 - INFO - 法律智能体服务启动成功
+2026-01-18 23:29:59 - INFO - 法律智能体服务启动成功
+2026-01-18 23:30:02 - INFO - 法律智能体服务启动成功
+2026-01-18 23:33:44 - INFO - 法律智能体服务启动成功
+2026-01-18 23:33:44 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-18 23:33:44 - INFO - 用户2000850556100329473开始对话
+2026-01-18 23:33:49 - INFO - 法律智能体服务启动成功
+2026-01-18 23:33:52 - INFO - 法律智能体服务启动成功
+2026-01-18 23:34:27 - INFO - 法律智能体服务启动成功
+2026-01-18 23:34:27 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-18 23:34:27 - INFO - 用户2000850556100329473开始对话
+2026-01-18 23:34:33 - INFO - 法律智能体服务启动成功
+2026-01-18 23:38:42 - INFO - 法律智能体服务启动成功
+2026-01-18 23:38:42 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-18 23:38:42 - INFO - 用户2000850556100329473开始对话
+2026-01-18 23:38:48 - INFO - 法律智能体服务启动成功
+2026-01-18 23:39:46 - INFO - 法律智能体服务启动成功
+2026-01-18 23:39:49 - INFO - 法律智能体服务启动成功
+2026-01-19 00:21:11 - INFO - 法律智能体服务启动成功
+2026-01-19 00:31:51 - INFO - 法律智能体服务启动成功
+2026-01-19 00:32:43 - INFO - 法律智能体服务启动成功
+2026-01-19 00:32:47 - INFO - 法律智能体服务启动成功
+2026-01-19 00:34:26 - INFO - 法律智能体服务启动成功
+2026-01-19 00:34:30 - INFO - 法律智能体服务启动成功
+2026-01-19 00:34:30 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-19 00:34:30 - INFO - 用户2000850556100329473开始对话
+2026-01-19 00:34:31 - ERROR - 用户2000850556100329473对话失败：module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "/Users/asdf/Desktop/Legal-ai/agents/legal_agent.py", line 129, in chat_with_legal_agent
+    context = await legal_service.get_conversation_context(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asdf/Desktop/Legal-ai/services/legal_service.py", line 203, in get_conversation_context
+    user_profile = await self.get_user_profile(account_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asdf/Desktop/Legal-ai/services/legal_service.py", line 230, in get_user_profile
+    "last_active": datetime.now().isoformat(),
+                   ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+2026-01-19 00:35:50 - INFO - 法律智能体服务启动成功
+2026-01-19 00:35:53 - INFO - 法律智能体服务启动成功
+2026-01-19 00:36:02 - INFO - 法律智能体服务启动成功
+2026-01-19 00:36:05 - INFO - 法律智能体服务启动成功
+2026-01-19 00:36:08 - INFO - 法律智能体服务启动成功
+2026-01-19 00:36:08 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-19 00:36:08 - INFO - 用户2000850556100329473开始对话
+2026-01-19 00:36:08 - ERROR - 用户2000850556100329473对话失败：module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "/Users/asdf/Desktop/Legal-ai/agents/legal_agent.py", line 129, in chat_with_legal_agent
+    context = await legal_service.get_conversation_context(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asdf/Desktop/Legal-ai/services/legal_service.py", line 222, in get_conversation_context
+    user_profile = await self.get_user_profile(account_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asdf/Desktop/Legal-ai/services/legal_service.py", line 249, in get_user_profile
+    "last_active": datetime.now().isoformat(),
+                   ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+2026-01-19 00:38:21 - INFO - 法律智能体服务启动成功
+2026-01-19 00:38:21 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-19 00:38:21 - INFO - 用户2000850556100329473开始对话
+2026-01-19 00:38:22 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:38:24 - INFO - 保存对话元数据: account=2000850556100329473, session=20260119
+2026-01-19 00:38:24 - INFO - 更新用户画像统计: account=2000850556100329473, 对话次数=1
+2026-01-19 00:38:26 - INFO - 法律智能体服务启动成功
+2026-01-19 00:38:30 - INFO - 法律智能体服务启动成功
+2026-01-19 00:42:38 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-19 00:42:38 - INFO - 用户2000850556100329473开始对话
+2026-01-19 00:42:39 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:42:42 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:42:59 - INFO - 保存对话元数据: account=2000850556100329473, session=20260119
+2026-01-19 00:42:59 - INFO - 更新用户画像统计: account=2000850556100329473, 对话次数=2
+2026-01-19 00:44:30 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-19 00:44:30 - INFO - 用户2000850556100329473开始对话
+2026-01-19 00:44:31 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:44:32 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:44:36 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:44:37 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:44:38 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:44:39 - WARNING - Stopping agent prematurely due to triggering stop condition
+2026-01-19 00:44:39 - INFO - 保存对话元数据: account=2000850556100329473, session=20260119
+2026-01-19 00:44:39 - INFO - 更新用户画像统计: account=2000850556100329473, 对话次数=3
+2026-01-19 00:44:51 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-19 00:44:51 - INFO - 用户2000850556100329473开始对话
+2026-01-19 00:44:53 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:44:53 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:44:57 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:45:14 - INFO - 保存对话元数据: account=2000850556100329473, session=20260119
+2026-01-19 00:45:14 - INFO - 更新用户画像统计: account=2000850556100329473, 对话次数=4
+2026-01-19 00:46:17 - INFO - JWT解密成功，accountId: 2000850556100329473, username: 17847572384
+2026-01-19 00:46:17 - INFO - 用户2000850556100329473开始对话
+2026-01-19 00:46:19 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 00:46:35 - INFO - 保存对话元数据: account=2000850556100329473, session=20260119
+2026-01-19 00:46:35 - INFO - 更新用户画像统计: account=2000850556100329473, 对话次数=5
+2026-01-19 00:46:35 - INFO - 更新对话摘要: account=2000850556100329473, count=5
+2026-01-19 16:22:36 - INFO - 法律智能体服务启动成功
+2026-01-19 16:31:35 - INFO - 法律智能体服务启动成功
+2026-01-19 16:31:39 - INFO - 法律智能体服务启动成功
+2026-01-19 16:32:00 - INFO - 用户 account_id 发送消息: 描述一下这个图片
+2026-01-19 16:32:00 - INFO - 图像已保存: uploads/494d6e4c9a204762b5327d9e5b023165.jpg
+2026-01-19 16:32:01 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:02 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:04 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:05 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:06 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:06 - WARNING - Stopping agent prematurely due to triggering stop condition
+2026-01-19 16:32:06 - INFO - 保存对话元数据: account=account_id, session=20260119
+2026-01-19 16:32:07 - INFO - 更新用户画像统计: account=account_id, 对话次数=1
+2026-01-19 16:32:11 - INFO - 用户 account_id 发送消息: 描述一下这个图片
+2026-01-19 16:32:11 - INFO - 图像已保存: uploads/357f0b8a9a5141ea9e07b4e9162439d6.jpg
+2026-01-19 16:32:12 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:16 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:18 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:19 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:21 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:23 - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 16:32:24 - WARNING - Stopping agent prematurely due to triggering stop condition
+2026-01-19 16:32:25 - INFO - 保存对话元数据: account=account_id, session=20260119
+2026-01-19 16:32:25 - INFO - 更新用户画像统计: account=account_id, 对话次数=2
